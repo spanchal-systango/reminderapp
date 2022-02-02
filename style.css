@@ -1,0 +1,53 @@
+body{
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.glassmorph{
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+.base-box{
+  height: auto;
+}
+
+.parent-box{
+  height: 100vh;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+#main-clock-box{
+  background-color: rgba(60,60,60, 1);
+  color: rgba(255, 255, 255, 1);
+
+}
+
+#main-clock{
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+#add-reminder-box, #edit-reminder-box{
+  /*border:  2px solid rgba(150, 150, 150, 0.5);*/
+  background-color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.addedRemainderListItem{
+  min-height: 50px;
+  /*border:  2px solid rgba(36, 197, 122, 1.0);*/
+  background-color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.editReminderButtonImg{
+  border-radius: 100px;
+}
+
+.editReminderButtonImg{
+  height: 15px;
+  width: 15px;
+}
